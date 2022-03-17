@@ -1,24 +1,24 @@
 <?php
 
-namespace Joy\VoyagerBreadReplaceKeyword\Console\Commands;
+namespace Joy\VoyagerBreadQuote\Console\Commands;
 
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 
-class BreadReplaceKeyword extends Command
+class BreadQuote extends Command
 {
-    protected $name = 'joy-bread-replace-keyword';
+    protected $name = 'joy-bread-quote';
 
-    protected $description = 'Joy VoyagerBreadReplaceKeyword';
+    protected $description = 'Joy VoyagerBreadQuote';
 
     public function handle()
     {
-        $this->output->title('Starting bread-replace-keyword');
+        $this->output->title('Starting bread-quote');
 
         // Your magic here
 
-        $this->output->success('BreadReplaceKeyword successful');
+        $this->output->success('BreadQuote successful');
     }
 
     /**
@@ -46,7 +46,7 @@ class BreadReplaceKeyword extends Command
                 'o',
                 InputOption::VALUE_OPTIONAL,
                 'The option1 description',
-                config('joy-voyager-bread-replace-keyword.option1')
+                config('joy-voyager-bread-quote.option1')
             ],
         ];
     }
