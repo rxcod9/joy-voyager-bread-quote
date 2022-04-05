@@ -18,7 +18,7 @@ class DataTypesTableSeeder extends Seeder
                 'name'                  => 'quotes',
                 'display_name_singular' => __('joy-voyager-bread-quote::seeders.data_types.quote.singular'),
                 'display_name_plural'   => __('joy-voyager-bread-quote::seeders.data_types.quote.plural'),
-                'icon'                  => 'voyager-bread',
+                'icon'                  => 'voyager-bread voyager-bread-quote voyager-file-code',
                 'model_name'            => 'Joy\\VoyagerBreadQuote\\Models\\Quote',
                 // 'policy_name'           => 'Joy\\VoyagerBreadQuote\\Policies\\QuotePolicy',
                 // 'controller'            => 'Joy\\VoyagerBreadQuote\\Http\\Controllers\\VoyagerBreadQuoteController',
